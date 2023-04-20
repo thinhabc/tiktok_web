@@ -1,7 +1,8 @@
 import classNames from 'classnames/bind';
-import styles from './header.module.scss';
+import styles from './Header.module.scss';
 import Tippy from '@tippyjs/react/headless';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
+import Button from '~/components/Button';
 
 import imgs from '~/assets/img';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -54,7 +55,10 @@ function Header() {
                     </div>
                 </Tippy>
 
-                <div className={cx('actions')}>{/*  */}</div>
+                <div className={cx('actions')}>
+                    <Button text>Upload</Button>
+                    <Button primary>Log in</Button>
+                </div>
             </div>
         </header>
     );

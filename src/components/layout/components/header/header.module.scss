@@ -17,8 +17,8 @@
     justify-content: space-between;
 }
 
-.logo {
-}
+// .logo {
+// }
 .rearch-result,
 .serch {
     width: 361px;
@@ -90,4 +90,8 @@
     color: rgba(22, 24, 35, 0.5);
     font-weight: 600;
     padding: 5px 12px;
+}
+
+.custom-text {
+    color: var(--primary);
 }
